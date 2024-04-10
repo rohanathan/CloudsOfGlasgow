@@ -1,38 +1,62 @@
-
-body{
-  font-family: 'Montserrat';
-  color: #FDFFFC;
-  text-align: center;
-  background-color: #011627;
-  border: 60px solid #2aeeda;
-  border-top: 0px;
-  /*border-bottom: 0px;*/
-  margin: 0px;
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
 }
 
-p{
-  color: #FDFFFC;
-  padding-top: 5%;
-  padding-left: 20%;
-  padding-right: 20%;
+/* Jumbotron Styles */
+.jumbotron {
+  background-color: #007bff;
+  color: #fff;
 }
 
-.userinput{
-  font-size: 1.5em;
+/* Main Content Styles */
+.container {
+  padding: 20px;
+}
+
+/* Cloud of the Day Section */
+#cloud-of-the-day img {
+  max-width: 100%;
+  height: auto;
   margin-bottom: 10px;
 }
 
-h2{
-  margin-bottom: 5%;
+/* Gallery Section */
+#gallery img {
+  max-width: 100%;
+  height: auto;
 }
 
-#sub{
-  border-radius: 25px;
-  background: #FF9F1C;
-  height: 80px;
-  width: 150px;
-  font-family: "Montserrat";
-  font-size: 1.2em;
-  margin-bottom: 4px;
+/* Daily Quotes Section */
+#daily-quotes {
+  margin-top: 20px;
+}
 
+.card-group .card {
+  margin-bottom: 20px;
+}
+
+/* Products Section */
+#clothes,
+#gadgets {
+  margin-bottom: 30px;
+}
+
+.list-group-item {
+  justify-content: space-between;
+}
+
+/* Total Weight Card */
+.card {
+  margin-top: 30px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+/* Note Section */
+p.note {
+  font-style: italic;
+  margin-top: 20px;
 }
