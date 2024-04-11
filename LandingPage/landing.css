@@ -1,12 +1,23 @@
 /* Global Styles */
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Libre Baskerville', serif; /* Use Google Fonts for a modern look */
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark text color */
+  line-height: 1.6; /* Improved readability */
 }
 
 /* Jumbotron Styles */
 .jumbotron {
   background-color: #007bff;
   color: #fff;
+  font-style: italic;
 }
 
 /* Main Content Styles */
@@ -25,38 +36,68 @@ body {
 #gallery img {
   max-width: 100%;
   height: auto;
+  border-radius: 5px; /* Slight border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+#gallery img:hover {
+  transform: scale(1.05); /* Scale up on hover */
 }
 
 /* Daily Quotes Section */
 #daily-quotes {
-  margin-top: 20px;
+  margin-top: 40px; /* Increased spacing */
 }
 
-.card-group .card {
-  margin-bottom: 20px;
+.card {
+  background-color: #fff; /* White background */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.card-body {
+  padding: 20px; /* Increased padding */
+}
+
+.card-title {
+  color: #007bff; /* Primary blue text color */
+}
+
+.card-text {
+  color: #555; /* Darker text color */
 }
 
 /* Products Section */
 #clothes,
 #gadgets {
-  margin-bottom: 30px;
-}
-
-.list-group-item {
-  justify-content: space-between;
+  margin-bottom: 50px; /* Increased spacing */
 }
 
 /* Total Weight Card */
 .card {
-  margin-top: 30px;
+  margin-top: 40px; /* Increased spacing */
 }
 
 .card-title {
-  margin-bottom: 10px;
+  margin-bottom: 20px; /* Improved spacing */
 }
 
 /* Note Section */
 p.note {
   font-style: italic;
-  margin-top: 20px;
+  margin-top: 40px; /* Increased spacing */
+  color: #888; /* Lighter text color */
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff; /* Primary blue button color */
+  border-color: #007bff; /* Primary blue border color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3; /* Darker blue border on hover */
 }
