@@ -69,6 +69,17 @@ body {
   color: #555; /* Darker text color */
 }
 
+
+/*Tips Section */
+.tip {
+  margin-bottom: 20px;
+}
+.tip h3 {
+  margin-bottom: 10px;
+}
+.tip p {
+  margin-bottom: 5px;
+}
 /* Products Section */
 #clothes,
 #gadgets {
